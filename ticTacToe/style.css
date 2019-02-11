@@ -1,0 +1,280 @@
+body {
+	background-color: lightgray;
+}
+
+header {
+	width: 900px;
+	background-color: lightgreen;
+	border: 3px solid green;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	display: block;
+	width: 250px;
+	margin-top: 0px;
+	margin-left: 320px;
+	font-size: 28px;
+	color: black;
+}
+
+.title-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+p {
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	color: darkgreen;
+}
+
+.btn {
+	width: 150px;
+	height: 40px;
+	border: none;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 12px;
+}
+
+.btn:hover {
+	border: 2px solid red;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:active {
+	background-color: gray;
+}
+
+main {
+	background-color: lightgreen;
+	width: 1500px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 3px solid green;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.num-wrapper {
+	height: 545px;
+	width: 756px;
+	margin: 0 auto;
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 5px solid red;
+	border-radius: 8px;
+}
+
+.num {
+	background-color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 1px solid red;
+	height: 180px;
+	width: 250px;
+	color: black;
+	font-weight: 150px;
+	font-size: 150px;
+	text-align: center;
+}
+
+.first-player {
+	background-color: lightgray;
+	border: 5px solid grey;
+	width: 250px;
+	height: 540px;
+	margin: auto auto;
+	border-radius: 8px;
+}
+
+.second-player {
+	background-color: lightgray;
+	border: 5px solid gray;
+	width: 250px;
+	height: 540px;
+	margin: auto auto;
+	border-radius: 8px;
+}
+
+.first-player-info {
+	text-align: center;
+}
+
+.second-player-info {
+	text-align: center;
+}
+
+.nick1 {
+	background-color: darkgreen;
+	width: 350px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	border-radius: 8px;
+}
+
+.nick2 {
+	background-color: darkgreen;
+	width: 350px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	border-radius: 8px;
+}
+
+input {
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 300px;
+	height: 25px;
+	border: none;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+label {
+	color: pink ;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+
+.nickname {
+	text-align: center;
+}
+
+.player-go {
+	text-align: center;
+	color: lightgray;
+	font-size: 25px;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.numActive:hover {
+	background-color: lightyellow;
+}
+
+.symbol {
+	display: block;
+	border: 3px solid grey;
+	border-radius: 20px;
+	width: 80px;
+	height: 115px;
+	margin: 0 auto;
+	font-size: 100px;
+	text-align: center;
+}
+
+.marked-symbol {
+	border-color: blue;
+}
+
+.marked-step {
+	color: darkgreen;
+}
+
+.marked-player {
+	background-color: white;
+	border-color: red;
+}
+
+.congratulations {
+	position: fixed;
+	top: 40px;
+	left: 550px;
+	width: 400px;
+	min-height: 250px;
+	border: 3px solid yellow;
+	background-color: white;
+}
+
+.winner-name {
+	text-align: center;
+	font-size: 30px;
+	color: red;
+}
+
+.end {
+	display: block;
+	background-color: yellow;
+	width: 180px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.popup-nick {
+	position: fixed;
+	top: 40px;
+	left: 550px;
+	width: 400px;
+	height: 150px;
+	border: 3px solid red;
+	background-color: lightyellow;
+	color: darkgreen;
+}
+
+.popup-nick h3 {
+	text-align: center;
+}
+
+.close {
+	display: block;
+	width: 180px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.res {
+	margin-top: 6px;
+	margin-right: 150px;
+}
+
+.popup-start {
+	position: fixed;
+	top: 40px;
+	left: 550px;
+	width: 400px;
+	height: 150px;
+	border: 3px solid red;
+	background-color: lightyellow;
+	color: darkgreen;
+}
+
+.popup-start h3 {
+	text-align: center;
+}
+
+.popup-start button {
+	display: block;
+	width: 180px;
+	height: 40px;
+	margin: 0 auto;
+}

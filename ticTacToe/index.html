@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="title-inner">
+				<h1 class="title">Крестики нолики</h1>
+				<button class="btn res" onClick="window.location.reload();">RESTART</button>
+			</div>
+			<p class="discription">Моя первая игра на js</p>
+			<div class="container">
+				<div class="nick1">
+					<label for="first-nickname" class="first-nickname1">Ник первого игрока</label>
+					<input type="text" id="first-nickname" class="first-nickname2">
+				</div>
+				
+				<button class="btn start">Start</button>
+				
+				<div class="nick2">
+					<label class="second-nickname1" for="second-nickname">Ник второго игрока</label>
+					<input type="text" id="second-nickname" class="second-nickname2">
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="first-player">
+				<h2 class="first-player-info">Информация о первом игроке</h2>
+				<h3 class="nickname nickname1 visually-hidden">nickname: </h3>
+				<p class="player-go ">
+					Сейчас ходит первый игрок
+				</p>
+				<span class="symbol">0</span>
+			</div>
+
+			<div class="num-wrapper">
+				<div class="first num numActive"></div>
+				<div class="second num numActive"></div>
+				<div class="third num numActive"></div>
+				<div class="four num numActive"></div>
+				<div class="five num numActive"></div>
+				<div class="six num numActive"></div>
+				<div class="seven num numActive"></div>
+				<div class="eight num numActive"></div>
+				<div class="nine num numActive"></div>
+			</div>
+
+			<div class="second-player">
+				<h2 class="second-player-info">Информация о втором игроке</h2>
+				<h3 class="nickname nickname2 visually-hidden">nickname: </h3>
+				<p class="player-go">
+					Сейчас ходит второй игрок
+				</p>
+				<span class="symbol">X</span>
+			</div>
+
+			<div class="congratulations visually-hidden">
+				<h3 class="winner-name"></h3>
+				<button class="btn end" onClick="window.location.reload();">END</button>
+			</div>
+
+			<div class="popup-nick visually-hidden">
+				<h3>Введите или измените ники и только потом начинайте!</h3>
+				<button class="btn close">Закрыть</button>
+			</div>
+
+			<div class="popup-start visually-hidden">
+				<h3>Введите ники и ОБЯЗАТЕЛЬНО нажмите старат!</h3>
+				<button class="btn close2">Закрыть</button>
+			</div>
+		</main>
+		<footer>
+			
+		</footer>
+		<script src="plugin.js"></script>
+	</body>
+</html>
